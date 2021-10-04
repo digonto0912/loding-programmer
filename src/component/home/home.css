@@ -1,0 +1,13 @@
+.body{
+    background-color: rgba(19, 19, 19, 0.055);
+}
+.cardsStyle{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:1fr 1fr ;
+}
+.imgSize{
+    width:100px;
+    height: 300px;
+}
