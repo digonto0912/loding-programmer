@@ -1,4 +1,5 @@
 // immport
+import "./products.css";
 import React, { useEffect, useState } from 'react';
 import { Row, Col, Card } from "react-bootstrap"
 
@@ -20,11 +21,11 @@ const Products = () => {
             <h1 className="m-5 p-5"><b>All Products</b></h1>
 
             {/* card */}
-            <div className="cardsStyle">
+            <div className="cardsStyles">
               {
                 infos.map(info => <>
                 <Row xs={1} md={2} className="g-4 cardsStyle mb-5">
-                  <Col>
+                  <Col className="colstyle">
                     <Card>
                       {/* card img */}
                       <Card.Img variant="top" src={info.img} className="imgSize" />

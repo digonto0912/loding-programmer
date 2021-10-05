@@ -1,0 +1,18 @@
+.cardsStyles{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:1fr 1fr ;
+}
+.cardsStyle{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.colstyle{
+    width:360px;
+}
+.imgSize{
+    width:100%;
+    height: 300%;
+}
